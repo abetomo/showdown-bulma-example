@@ -1,0 +1,25 @@
+{
+  "name": "showdown-bulma-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abetomo/showdown-bulma-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abetomo/showdown-bulma-example/issues"
+  },
+  "homepage": "https://github.com/abetomo/showdown-bulma-example#readme",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "parcel-bundler": "^1.11.0",
+    "showdown": "^1.9.0"
+  }
+}
