@@ -5,7 +5,12 @@ const fs  = require('fs')
 
 // https://github.com/showdownjs/showdown/wiki/Add-default-classes-for-each-HTML-element
 const classMap = {
-  h1: 'title'
+  h1: 'title is-1',
+  h2: 'title is-2',
+  h3: 'title is-3',
+  h4: 'title is-4',
+  h5: 'title is-5',
+  h6: 'title is-6'
 }
 
 const bindings = Object.keys(classMap)
