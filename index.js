@@ -10,7 +10,8 @@ const classMap = {
   h3: 'title is-3',
   h4: 'title is-4',
   h5: 'title is-5',
-  h6: 'title is-6'
+  h6: 'title is-6',
+  pre: 'prettyprint box'
 }
 
 const bindings = Object.keys(classMap)
