@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
     <title>Showdown + Bulma example</title>
   </head>
   <body>
@@ -10,14 +12,16 @@
       <div class="container"></div>
     </section>
     <script src="./index.js"></script>
-    <script
-      src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
   </body>
   <style lang="scss">
     @import "./node_modules/bulma/bulma.sass";
 
     .columns {
       margin-top:15px;
+    }
+    pre {
+      background-color: initial;
+      padding: initial;
     }
   </style>
 </html>

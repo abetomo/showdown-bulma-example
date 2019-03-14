@@ -1,7 +1,8 @@
 'use strict'
 
-const showdown  = require('showdown')
-const fs  = require('fs')
+const showdown = require('showdown')
+const showdownHighlight = require('showdown-highlight')
+const fs = require('fs')
 
 // https://github.com/showdownjs/showdown/wiki/Add-default-classes-for-each-HTML-element
 const classMap = {
@@ -10,8 +11,7 @@ const classMap = {
   h3: 'title is-3',
   h4: 'title is-4',
   h5: 'title is-5',
-  h6: 'title is-6',
-  pre: 'prettyprint box'
+  h6: 'title is-6'
 }
 
 const bindings = Object.keys(classMap)
@@ -22,7 +22,10 @@ const bindings = Object.keys(classMap)
   }))
 
 const converter = new showdown.Converter({
-  extensions: [...bindings]
+  extensions: [
+    showdownHighlight,
+    ...bindings
+  ]
 })
 
 const text = fs.readFileSync('main.md', 'utf8')
