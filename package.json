@@ -19,8 +19,8 @@
   "homepage": "https://github.com/abetomo/showdown-bulma-example#readme",
   "dependencies": {
     "bulma": "^0.7.5",
-    "parcel-bundler": "^1.12.3",
-    "showdown": "^1.9.0",
+    "parcel-bundler": "^1.12.4",
+    "showdown": "^1.9.1",
     "showdown-highlight": "^2.1.3"
   }
 }
