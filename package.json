@@ -19,12 +19,12 @@
   "homepage": "https://github.com/abetomo/showdown-bulma-example#readme",
   "dependencies": {
     "bulma": "^0.9.3",
-    "parcel": "^2.0.0-rc.0",
+    "parcel": "^2.3.2",
     "parcel-bundler": "^1.12.5",
-    "showdown": "^1.9.1",
+    "showdown": "^2.0.2",
     "showdown-highlight": "^2.1.8"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-rc.0"
+    "@parcel/transformer-sass": "^2.3.2"
   }
 }
